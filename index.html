@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="I am a front-end web developer. I can create any type of website as company or customer want.">
+    <meta name="keywords" content="Arnab Khan, front-end web developer, web designer, Portfolio, web development project">
+    <meta name="author" content="Arnab Khan">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Web Developer | Arnab Khan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="home-page.css">
+</head>
+<body>
+    <!-- start background div  -->
+    <div class="backdround_div"></div>
+    <!-- end background div  -->
+
+    <!-- start nav bar  -->
+
+    <ul>  
+        <li onclick="manuClick(0)" style="color: red;">HOME</li>
+        <li onclick="manuClick(1)">PROJECTS</li>
+        <li onclick="manuClick(2)">SKILLS</li>
+        <li onclick="manuClick(3)">ABOUT ME</li>
+        <li onclick="manuClick(4)">CONTACT ME</li>
+        <a href="Arnab_Khan_resume.pdf" download=""><li>RESUME</li></a>
+    </ul>
+    <div class="open_close" onclick="openClose()">
+        <div class="manu_bar"></div>
+        <div class="manu_bar"></div>
+        <div class="manu_bar"></div>
+    </div>
+    <!-- end nav bar  -->
+
+    <!-- start home  -->
+    <div id="0" style="top: 0;position: absolute;"></div>
+    <div class="home" id="10">
+
+        <p class="home_wellcome">WELLCOME</p>
+        <p class="home_description">MY NAME IS ARNAB KHAN AND I<br> AM A FRONT-END WEB DEVELOPER</p>
+        <p class="home_love">I LOVE</p>
+        <p class="home_skill">HTML5, CSS3 AND JAVASCRIPT</p>
+    </div>
+    <!-- end home  -->
+
+    <!-- start project  -->
+    <div class="project" id="11">
+
+        <div id="1" style="margin-top: -5vw;"></div>
+
+        <p class="text_effect">PROJECTS</p>
+        <p class="project_click">Click on any image of project to view my project</p>
+        <div class="project_image">
+            <div class="sub_image1 image" onclick="window.location.href='https://arnab-khan.github.io/snake-game/'"></div>
+            <div class="sub_image2 image" onclick="window.location.href='https://arnab-khan.github.io/snake-game/'"></div>
+            <p class="sub_image3"><b>Title:</b> Snake Game<br><b>Used:</b> HTML, CSS, JavaScript and localStorage.<br><b>About:</b> It is a simple snake game. You can move snake by display switch or by keyboard.</p>
+        </div>
+        <div class="project_image">
+            <div class="sub_image1 image" onclick="window.location.href='https://arnab-khan.github.io/write-note/'"></div>
+            <div class="sub_image2 image" onclick="window.location.href='https://arnab-khan.github.io/write-note/'"></div>
+            <p class="sub_image3"><b> Title:</b> Write Note<br><b>Used:</b> HTML, CSS, JavaScript and localStorage.<br><b>about:</b> Here you can write short note and save it in to local storage.</p>
+        </div>
+        <div class="project_image">
+            <div class="sub_image1 image" onclick="window.location.href='https://arnab-khan.github.io/typing-speed-test/'"></div>
+            <div class="sub_image2 image" onclick="window.location.href='https://arnab-khan.github.io/typing-speed-test/'"></div>
+            <p class="sub_image3"><b> Title:</b> Typing Speed Test<br><b>Used:</b> HTML, CSS, JavaScript, Fetch API and a random story generator API in JSON format.<br><b>about:</b> Here you can check you typing speed test and also will see errors.</p>
+        </div>
+        <div class="project_image">
+            <div class="sub_image1 image" onclick="window.location.href='https://arnab-khan.github.io/clock-stopwatch/'"></div>
+            <div class="sub_image2 image" onclick="window.location.href='https://arnab-khan.github.io/clock-stopwatch/'"></div>
+            <p class="sub_image3"><b> Title:</b> Clock and Stopwatch<br><b>Used:</b> HTML, CSS and JavaScript.<br><b>about:</b> Here you can see current time and also can use as a stopwatch.</p>
+        </div>
+        <div class="project_image">
+            <div class="sub_image1 image" onclick="window.location.href='https://arnab-khan.github.io/3D-animation/'"></div>
+            <div class="sub_image2 image" onclick="window.location.href='https://arnab-khan.github.io/3D-animation/'"></div>
+            <p class="sub_image3"><b> Title:</b> 3D Box Animation<br><b>Used:</b> HTML, CSS and JavaScript.<br><b>about:</b> It is a animation. Here boxs are moving and rotating.</p>
+        </div>
+        <div class="project_image">
+            <div class="sub_image1 image" onclick="window.location.href='https://arnab-khan.github.io/box-passing/'"></div>
+            <div class="sub_image2 image" onclick="window.location.href='https://arnab-khan.github.io/box-passing/'"></div>
+            <p class="sub_image3"><b> Title:</b> Box Passing Game<br><b>Used:</b> HTML, CSS and JavaScript.<br><b>about:</b> It is similar to acar game. You can control your box by click on road or by keyboard.</p>
+        </div>
+    </div>
+    <!-- end project  -->
+
+    <!-- start skills  -->
+
+    <div class="skill" id="12">
+
+        <div id="2" style="margin-top: -5vw;"></div>
+
+        <p class="text_effect">SKILLS</p>
+        <div class="pre_rotate_skill">
+            <div class="rotate_skill">
+                <!-- <div class="rotate_buttom"></div> -->
+                <div class="rotate_left"><b>JS</b></div>
+                <div class="rotate_right"><b>JS</b></div>
+                <div class="rotate_up"><i class="fa fa-css3" aria-hidden="true"></i></div>
+                <div class="rotate_down"><i class="fa fa-css3" aria-hidden="true"></i></div>
+                <div class="rotate_top"> <i class="fa fa-html5" aria-hidden="true"></i></div>
+            </div>
+        </div>
+        <P class="skill_items">
+            <b>PROGRAMMING LANGUAGE SKILL:</b> <span>HTML5</span>, <span>CSS3</span> and <span>JAVASCRIPT</span>.<br><br>
+            <b>OTHER SKILL: </b><span>JSON</span>, <span>AJAX / WEB FETCH API</span>  and <span>WEB STORAGE API</span>. 
+        </P>
+    </div>
+    <!-- end skills  -->
+
+    <!-- start about me  -->
+    <div class="about_me" id="13">
+
+        <div id="3" style="margin-top: -5vw;"></div>
+
+        <p class="text_effect">ABOUT ME</p>
+        <div class="pre_slider">
+            <div class="slider">
+                <div class="dlider_content1">I am a front-end web developer. I can create any type of website as company or customer want.</div>
+                <div class="dlider_content2">
+                    <div class="dlider_content21"></div>
+                    <b>What can I do?</b><br>
+                    =>I can create responsive and animated webside with any kind of JavaScript functionality. I have also Math and problem solving skills.
+                </div>
+                <div class="dlider_content3"><b>How am I learn?</b><br>I learn everything with my own. When I learn something in online then I implement it in my own way.<br><b>What Code Editor and Browser am I use?</b><br>I use Visual Studio Code as a code editor and Chrome or Edge as a browser.</div>
+            </div>
+            <div class="slide_switch1" onclick="slideSwitch1()">&lt</div>
+            <div class="slide_switch2" onclick="slideSwitch2()">&gt</div>
+        </div>
+        <div class="slider_move">
+            <div class="slider_move_circle" onclick="moveSlider(0)"></div>
+            <div class="slider_move_circle" onclick="moveSlider(1)"></div>
+            <div class="slider_move_circle" onclick="moveSlider(2)"></div>
+        </div>
+    </div>
+    <!-- end about me  -->
+
+    <!-- start contact me  -->
+    <div class="contact_me" id="14">
+
+        <div id="4" style="margin-top: -5vw; position: absolute;"></div>
+
+        <p class="text_effect">CONTACT ME</p>
+        <nav class="contact_logo">
+            <a href="mailto:arnabkhanxyz@gmail.com" class="contact_item" style="background-color: rgb(235, 70, 70); color: white;"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://wa.me/+917407930967" class="contact_item" style="background-color: #25d366; color: white;"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/arnab-khan-14868318b" class="contact_item" style="background-color: #0077b5; color: white;"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="tel:+917407930967" class="contact_item" style="background-color: rgb(187, 173, 173); color: green;"><i class="fa fa-phone" aria-hidden="true"></i></a>
+        </nav>
+    </div>
+    <!-- end contact me  -->
+
+    <!-- start thanks  -->
+    <div class="thanks" id="15">THANKS FOR VISITING</div>
+    <!-- end thanks  -->
+
+    <script src="home-page.js"></script>
+</body>
+</html>
